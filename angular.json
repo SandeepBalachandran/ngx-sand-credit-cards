@@ -123,6 +123,46 @@
           }
         }
       }
+    },
+    "ngx-sand-credit-cards": {
+      "projectType": "library",
+      "root": "projects/ngx-sand-credit-cards",
+      "sourceRoot": "projects/ngx-sand-credit-cards/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-sand-credit-cards/tsconfig.lib.json",
+            "project": "projects/ngx-sand-credit-cards/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-sand-credit-cards/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-sand-credit-cards/src/test.ts",
+            "tsConfig": "projects/ngx-sand-credit-cards/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-sand-credit-cards/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-sand-credit-cards/tsconfig.lib.json",
+              "projects/ngx-sand-credit-cards/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "NgxSandCreditCards"
 }

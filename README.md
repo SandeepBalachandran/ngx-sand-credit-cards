@@ -1,27 +1,118 @@
-# NgxSandCreditCards
+<!-- ![](./images/preview.png) -->
+<h1 align='center'>ngx-sand-credit-cards</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+<h3 align="center"> An angular credit cards package</h3>
+<br>
+<p align="center"> 
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/releases/" target="_blank">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/SandeepBalachandran/ngx-sand-credit-cards?include_prereleases&style=flat-square">
+  </a> 
 
-## Development server
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/SandeepBalachandran/ngx-sand-credit-cards?style=flat-square" alt="GitHub last commit">
+  </a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/issues" target="_blank">
+    <img src="https://img.shields.io/github/issues/SandeepBalachandran/ngx-sand-credit-cards?style=flat-square&color=red" alt="GitHub issues">
+  </a>
 
-## Code scaffolding
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/pulls" target="_blank">
+    <img src="https://img.shields.io/github/issues-pr/SandeepBalachandran/ngx-sand-credit-cards?style=flat-square&color=blue" alt="GitHub pull requests">
+  </a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  </br>
 
-## Build
+  <a href="https://standardjs.com" target="_blank">
+    <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
+  </a>
+  
+  <a href="" target="_blank">
+    <img alt="ESLint" src="https://img.shields.io/github/stars/SandeepBalachandran/ngx-sand-credit-cards">
+  </a>
+  
+  <a href="" target="_blank">
+    <img alt="ESLint" src="https://img.shields.io/github/forks/SandeepBalachandran/ngx-sand-credit-cards">
+  </a>
+   <a href="" target="_blank">
+    <img alt="Codesize" src="https://img.shields.io/github/languages/code-size/SandeepBalachandran/ngx-sand-credit-cards.svg">
+  </a>
+  <a href="" target="_blank">
+    <img alt="Top Language" src="https://img.shields.io/github/languages/top/SandeepBalachandran/ngx-sand-credit-cards.svg">
+  </a>
+  
+</p>
+<hr>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Demo 
+![](https://github.com/SandeepBalachandran/ngx-sand-credit-cards/raw/main/assets/demo.gif) 
 
-## Running unit tests
+* [Live Demo](https://sandeepbalachandran.github.io/ngx-sand-credit-cards/)
+* [Playground](https://stackblitz.com/edit/angular-8-ngx-sand-credit-cards)
+* [NPM package](https://www.npmjs.com/package/ngx-sand-credit-cards)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Table of contents
+* [Features](#features)
+* [Installation](#getting-started)
+* [API](#api)
+* [Usage](#usage)
 
-## Running end-to-end tests
+## Features
+* 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+[Goto Top](#table-of-contents)
 
-## Further help
+## Getting Started
+### Step 1 : Install the package 
+#### NPM
+```cmd
+npm install ngx-sand-credit-cards
+```
+### Step 2 : After installation import NgxSandCreditCardsModule into your root or feature module
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```cmd
+import { NgxSandCreditCardsModule } from 'sand-typeahead';
+```
+### Step 3 : Add ``` NgxSandCreditCardsModule``` to the imports of your NgModule
+
+```cmd
+@NgModule({
+  imports: [
+    ...,
+    NgxSandCreditCardsModule
+  ],
+  ...
+})
+class YourModule { ... }
+```
+
+### Usage  
+* Use ```<ngx-sand-credit-cards></ngx-sand-credit-cards> ``` in your templates to add the default dropdown in your view like below
+
+```ts
+  <ngx-sand-credit-cards></ngx-sand-credit-cards>
+```
+ 
+[Goto Top](#table-of-contents)
+## API
+
+#### Input
+
+
+ 
+
+
+
+#### Output
+
+  
+  [Goto Top](#table-of-contents)
+
+## Help Improve
+
+Found a bug or an issue with this? [Open a new issue](https://github.com/SandeepBalachandran/ngx-sand-credit-cards/issues) here on GitHub.
+
+
+## Contribute
+Please check the [**Contributing Guidelines**](https://github.com/SandeepBalachandran/ngx-sand-credit-cards/blob/main/CONTRIBUTING.md) before contributing.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5. 
