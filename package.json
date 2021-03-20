@@ -7,7 +7,15 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "serve-demo": "ng serve --port 4444",
+    "build-demo": "ng build NgxSandCreditCards --prod  --base-href=https://sandeepbalachandran.github.io/ngx-sand-credit-cards/",
+    "watch-build": "ng build ngx-sand-credit-cards --watch",
+    "npm_pack": "cd dist/ngx-sand-credit-cards && npm pack",
+    "prod-build": "ng build ngx-sand-credit-cards --prod",
+    "copy-readme": "copy .\\README.md .\\projects\\ngx-sand-credit-cards",
+    "package": "npm run copy-readme && npm run prod-build &&  npm run npm_pack",
+    "npm_publish": "cd dist/ngx-sand-credit-cards && npm publish"
   },
   "private": true,
   "dependencies": {

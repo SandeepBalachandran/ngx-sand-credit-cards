@@ -4,19 +4,19 @@
 <h3 align="center"> An angular credit cards package</h3>
 <br>
 <p align="center"> 
-  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/releases/" target="_blank">
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-credit-cards/releases/" target="_blank">
     <img alt="GitHub release" src="https://img.shields.io/github/v/release/SandeepBalachandran/ngx-sand-credit-cards?include_prereleases&style=flat-square">
   </a> 
 
-  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/commits/main" target="_blank">
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-credit-cards/commits/master" target="_blank">
     <img src="https://img.shields.io/github/last-commit/SandeepBalachandran/ngx-sand-credit-cards?style=flat-square" alt="GitHub last commit">
   </a>
 
-  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/issues" target="_blank">
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-credit-cards/issues" target="_blank">
     <img src="https://img.shields.io/github/issues/SandeepBalachandran/ngx-sand-credit-cards?style=flat-square&color=red" alt="GitHub issues">
   </a>
 
-  <a href="https://github.com/SandeepBalachandran/ngx-sand-creditcards/pulls" target="_blank">
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-credit-cards/pulls" target="_blank">
     <img src="https://img.shields.io/github/issues-pr/SandeepBalachandran/ngx-sand-credit-cards?style=flat-square&color=blue" alt="GitHub pull requests">
   </a>
 
@@ -44,7 +44,7 @@
 <hr>
 
 ## Demo 
-![](https://github.com/SandeepBalachandran/ngx-sand-credit-cards/raw/main/assets/demo.gif) 
+![](https://github.com/SandeepBalachandran/ngx-sand-credit-cards/blob/master/assets/demo.gif) 
 
 * [Live Demo](https://sandeepbalachandran.github.io/ngx-sand-credit-cards/)
 * [Playground](https://stackblitz.com/edit/angular-8-ngx-sand-credit-cards)
