@@ -44,7 +44,8 @@
 <hr>
 
 ## Demo 
-![](https://github.com/SandeepBalachandran/ngx-sand-credit-cards/blob/master/assets/demo.gif) 
+![](https://github.com/SandeepBalachandran/ngx-sand-credit-cards/blob/master/assets/demo.gif)
+
 
 * [Live Demo](https://sandeepbalachandran.github.io/ngx-sand-credit-cards/)
 * [Playground](https://stackblitz.com/edit/angular-8-ngx-sand-credit-cards)
